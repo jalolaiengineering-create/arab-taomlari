@@ -1,0 +1,40 @@
+# --- Maxfiy ma'lumotlar (bot tokeni va h.k.) ---
+.env
+.env.*
+!.env.example
+.dev.vars
+*.secret
+*.key
+
+# --- Cloudflare Worker (wrangler) mahalliy fayllari ---
+.wrangler/
+wrangler.toml.bak
+
+# --- Claude Code shaxsiy sozlamalari ---
+.claude/settings.local.json
+
+# --- Node.js (keyinchalik paket o'rnatilsa) ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Tizim fayllari ---
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# --- Muharrir fayllari ---
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*~
+
+# --- Vaqtinchalik va log fayllar ---
+*.log
+*.tmp
+.cache/
+__pycache__/
